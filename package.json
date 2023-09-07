@@ -1,0 +1,21 @@
+{
+  "name": "ags",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "npm run dev",
+    "start": "next start"
+},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.3.1",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

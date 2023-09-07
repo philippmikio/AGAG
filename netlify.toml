@@ -1,0 +1,14 @@
+# netlify.toml
+
+[build]
+  # Set your build command, this should match the command you use locally to build your React app
+  command = "npm run build"
+
+  # The directory where the built files are located. In this case, it's the default for Create React App.
+  publish = "build/"
+
+# Add routing settings if needed
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
